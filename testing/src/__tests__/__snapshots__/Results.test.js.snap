@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly with no Pets 1`] = `
+<div>
+  <h1>
+    No pets found????
+  </h1>
+</div>
+`;
+
+exports[`renders correctly with some pets 1`] = `
+<div>
+  <Pet
+    animal="dog"
+    breed="Havanese"
+    description="Luna is actually the most adorable dog in the world. Her hobbies include yelling at squirrels, aggressively napping on her owners' laps, and asking to be fed two hours before IT'S DAMN WELL TIME LUNA. Luna is beloved by her puppy parents and lazily resides currently in Seattle, Washington."
+    id={1}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog25.jpg",
+        "http://pets-images.dev-apis.com/pets/dog26.jpg",
+        "http://pets-images.dev-apis.com/pets/dog27.jpg",
+        "http://pets-images.dev-apis.com/pets/dog28.jpg",
+        "http://pets-images.dev-apis.com/pets/dog29.jpg",
+      ]
+    }
+    location="Seattle, WA"
+    name="Luna"
+  />
+  <Pet
+    animal="dog"
+    breed="Goldendoodle"
+    description="Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+    id={2}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog31.jpg",
+        "http://pets-images.dev-apis.com/pets/dog30.jpg",
+        "http://pets-images.dev-apis.com/pets/dog32.jpg",
+        "http://pets-images.dev-apis.com/pets/dog33.jpg",
+      ]
+    }
+    location="Minneapolis, MN"
+    name="Bunnahabhain"
+  />
+  <Pet
+    animal="dog"
+    breed="Boxer"
+    description="Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh."
+    id={3}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog34.jpg",
+      ]
+    }
+    location="Minneapolis, MN"
+    name="Olive"
+  />
+  <Pet
+    animal="dog"
+    breed="Wheaten Terrier"
+    description="Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+    id={4}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog37.jpg",
+        "http://pets-images.dev-apis.com/pets/dog38.jpg",
+        "http://pets-images.dev-apis.com/pets/dog39.jpg",
+      ]
+    }
+    location="Denver, CO"
+    name="Sudo"
+  />
+  <Pet
+    animal="dog"
+    breed="Wheaten Terrier"
+    description="Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+    id={5}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog35.jpg",
+        "http://pets-images.dev-apis.com/pets/dog36.jpg",
+      ]
+    }
+    location="Denver, CO"
+    name="Beam"
+  />
+  <Pet
+    animal="bird"
+    breed="Cockatoo"
+    description="Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet."
+    id={6}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/bird2.jpg",
+      ]
+    }
+    location="Carol Stream, IL"
+    name="Gizela"
+  />
+  <Pet
+    animal="reptile"
+    breed="Horned Lizard"
+    description="Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    id={7}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/reptile2.jpg",
+      ]
+    }
+    location="Bridgeport, CT"
+    name="Laughton"
+  />
+  <Pet
+    animal="dog"
+    breed="Shih Tzu"
+    description="Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio."
+    id={8}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog0.jpg",
+      ]
+    }
+    location="Charlotte, NC"
+    name="Si"
+  />
+  <Pet
+    animal="rabbit"
+    breed="American"
+    description="Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat."
+    id={9}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/rabbit3.jpg",
+      ]
+    }
+    location="Springfield, IL"
+    name="Lyda"
+  />
+  <Pet
+    animal="dog"
+    breed="Labrador"
+    description="Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+    id={10}
+    images={
+      [
+        "http://pets-images.dev-apis.com/pets/dog1.jpg",
+      ]
+    }
+    location="Tucson, AZ"
+    name="Jackquelin"
+  />
+</div>
+`;
